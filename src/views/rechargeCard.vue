@@ -1,12 +1,12 @@
 <template>
-    <div>
+    <div class="rechargeWrap">
       222
     </div>
 </template>
 
 <script>
 export default {
-  name: "home",
+  name: "recharge",
   components: {
    
   },
@@ -22,6 +22,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.homeWrap {
+.rechargeWrap {
+  
 }
 </style>

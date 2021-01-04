@@ -91,7 +91,7 @@ html { overflow-y: scroll; }
 }
 /* 重置表格样式 */
 .el-table tbody tr:hover>td { 
-    background-color:#121518 !important;
+    background-color:#0A0D2B !important;
 }
 .el-table td, .el-table th.is-leaf{
     border-bottom: 1px solid #1c1c1c;
@@ -106,26 +106,26 @@ html { overflow-y: scroll; }
    height:0;
  }
 .bigTable{
-    min-height: 330px;
-    background-color: #121518;
+    min-height: 430px;
+    background-color: #0A0D2B;
 }
 .el-table tr{
-    background-color: #121518;
-    color: #8f9297;
+    background-color: #0A0D2B;
+    color: #d3d7de;
     font-size: 13px;
 }
 .el-table .even-row {
-    background: #121518;
+    background: #0A0D2B;
 }
 .el-table .odd-row {
-    background: #121518;
+    background: #0A0D2B;
 }
 .el-pagination{
     text-align: right;
     cursor: pointer;
 }
 .page-common {
-    background-color: #121518;
+    background-color: #0A0D2B;
     padding: 20px 5px;
     margin-bottom: 30px;
 }
@@ -145,13 +145,13 @@ html { overflow-y: scroll; }
     border: 1px solid #111318;
 }
 .el-pagination.is-background .btn-next,.el-pagination.is-background .btn-prev,.el-pagination.is-background .el-pager li {
-    background-color: #121518;
+    background-color: #0A0D2B;
     color: #fff;
 }
 
  .el-pagination.is-background .el-pager li:not(.disabled).active {
-    background-color: #ffcf09; 
-    border: 1px solid #ffcf09;
+    background-color: #FF9279; 
+    border: 1px solid #FF9279;
     color: #fff;
 }
 .el-table--enable-row-hover .el-table__body tr:hover>td{
@@ -176,7 +176,7 @@ input{
     margin: 80px 0 30px 0 ;
 }
 input{
-    background-color: #121518;
+    background-color: #0A0D2B;
     border: 1px solid #252525; 
 	outline:none;  
     color: #fff;
@@ -184,6 +184,11 @@ input{
     line-height: 37px;
     padding: 0 10px;
 }
+input:focus {
+    border: 1px solid #FF9279;
+    color: #FF9279;
+    background-color: #080808;
+  }
 input[disabled],input:disabled{
     border:1px solid #5a5757;
     background-color:#5a5757;
@@ -210,13 +215,13 @@ textarea{
     resize:none;
     border:1px solid #252525;
     color: #fff;
-    background-color: #121518;
+    background-color: #0A0D2B;
     padding: 10px;
     line-height: 22px;
 }
 .el-date-editor--daterange.el-input, .el-date-editor--daterange.el-input__inner, .el-date-editor--timerange.el-input, .el-date-editor--timerange.el-input__inner{
     width: 300px;
-    background-color: #121518;
+    background-color: #0A0D2B;
     border: 1px solid #252525;
 }
 .el-date-table tr,.el-date-table td{
@@ -224,18 +229,18 @@ textarea{
  }
 .el-date-editor .el-range-separator{
     color:#fff;
-    background-color: #121518;
+    background-color: #0A0D2B;
 }
 .el-date-editor .el-range__close-icon{
     color: #fff;
-    background-color: #121518;
+    background-color: #0A0D2B;
 }
 .el-select-dropdown{
     position: absolute;
     z-index: 1001;
-    border: 1px solid #121518;
+    border: 1px solid #0A0D2B;
     border-radius: 4px;
-    background-color: #121518;
+    background-color: #0A0D2B;
     -webkit-box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
     box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
     -webkit-box-sizing: border-box;
@@ -243,34 +248,34 @@ textarea{
     margin: 5px 0;
 }
 .el-select-dropdown__item.selected{
-   color: #ffcf09;
+   color: #FF9279;
 }
 .el-select-dropdown__item.hover, .el-select-dropdown__item:hover{
-    color: #ffcf09;
-    background-color: #121518;
+    color: #FF9279;
+    background-color: #0A0D2B;
 }
 .el-popper[x-placement^=bottom] .popper__arrow::after{
-    border-bottom-color: #121518;
+    border-bottom-color: #0A0D2B;
 }
 .el-popper[x-placement^=bottom] .popper__arrow{
     top: -6px;
     left: 50%;
     margin-right: 3px;
     border-top-width: 0;
-    border-bottom-color: #121518;
+    border-bottom-color: #0A0D2B;
 }
 .el-autocomplete-suggestion{
-    background-color: #121518;
+    background-color: #0A0D2B;
     border: 1px solid #252525;
 }
 .el-autocomplete-suggestion li{
-    background-color: #121518;
+    background-color: #0A0D2B;
     color: #fff;
 }
 .el-select-dropdown__item{
     color: #fff;
 }
 .el-autocomplete-suggestion li.highlighted, .el-autocomplete-suggestion li:hover{
-    background-color: #121518;
-    color: #ffcf09;
+    background-color: #0A0D2B;
+    color: #FF9279;
 }
